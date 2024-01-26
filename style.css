@@ -7,6 +7,15 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
+body {
+    background-image: url('BK2.avif'); /* Replace with your image path */
+    background-size: cover; /* This ensures that your background covers the entire element */
+    background-attachment: fixed; /* This makes the background image fixed during scroll */
+    background-repeat: no-repeat; /* This will prevent the image from repeating */
+}
+
+
 html{
     scroll-behavior: smooth;
 }
@@ -142,7 +151,7 @@ section .title::after{
     bottom: 10px;
     text-align: center;
     line-height: 45px;
-    color: #fff;
+    color: white;
     z-index: 9999;
     font-size: 30px;
     border-radius: 6px;
@@ -167,7 +176,7 @@ section .title::after{
     display: flex;
     background: url("images/banner.jpg") no-repeat center;
     height: 100vh;
-    color: #fff;
+    color: crimson;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
